@@ -1,0 +1,29 @@
+body {
+	background: url(../images/background.jpg);
+}
+
+.instructions, .timer-display, h1 {
+    text-align: center;
+}
+
+.row.questBox {
+    max-width: 750px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 30px;
+    color: #fff;
+}
+
+button#start {
+    background: blue;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+input[type=radio] {
+    margin: 0px;
+    padding-right: 2px;
+
+    vertical-align: middle;
+}
